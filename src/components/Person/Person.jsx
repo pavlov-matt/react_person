@@ -2,10 +2,9 @@ export const Person = ({
   person: { name, age, partnerName, sex, isMarried },
 }) => {
   // eslint-disable-next-line prettier/prettier
-  const partner =
-    sex === 'm'
-      ? 'wife'
-      : 'husband';
+  const partner = sex === 'm'
+    ? 'wife'
+    : 'husband';
 
   return (
     <section className="Person">
